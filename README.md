@@ -46,3 +46,22 @@ O desafio final foca na análise de performance de diferentes algoritmos de orde
     1.  O **número de comparações** que cada algoritmo de ordenação realizou.
     2.  O **tempo de execução** de cada ordenação (usando `clock()` da `time.h`).
 * **Busca Otimizada:** Inclui a **Busca Binária** por nome, que só pode ser executada após a ordenação por nome (Bubble Sort).
+## 🛠️ Como Compilar e Executar
+
+Cada nível é um programa independente e deve ser compilado separadamente. Use um compilador C como o `gcc`.
+
+### Conceitos Praticados
+
+Estruturas de Dados: struct, Vetores (Arrays), Listas Encadeadas Simples.
+
+Gerenciamento de Memória: Alocação estática (vetores) e dinâmica (malloc, free).
+
+Ponteiros: Manipulação de ponteiros para dados (*, &) e para funções (em main do Nível 2) e ponteiros duplos (**) em listas encadeadas.
+
+Algoritmos de Busca: Busca Sequencial e Busca Binária.
+
+Algoritmos de Ordenação: Bubble Sort, Insertion Sort e Selection Sort.
+
+Análise de Algoritmos (Empírica): Contagem de operações (comparações) e medição de tempo de execução (clock()).
+
+Modularização: Separação de lógica em funções e passagem de parâmetros por valor e referência (ponteiros).
